@@ -32,5 +32,3 @@ pip install https://github.com/weyn9q/rtx5070tensorflow/releases/download/v1.0/t
 # Test TensorFlow installation and GPU detection
 python -c "import tensorflow as tf; print(f'TensorFlow version: {tf.__version__}'); print(f'GPU available: {tf.config.list_physical_devices(\"GPU\")}'); print('GPU test:', tf.test.is_gpu_available())"
 
-# Optional: Run a simple GPU computation test
-python -c "import tensorflow as tf; print('Testing GPU computation...'); a = tf.random.normal([5000, 5000]); b = tf.random.normal([5000, 5000]); c = tf.matmul(a, b); print('Matrix multiplication completed successfully on GPU')"
