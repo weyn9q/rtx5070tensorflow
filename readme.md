@@ -1,4 +1,4 @@
-# TensorFlow for RTX 5070 (Custom Build)
+# TensorFlow for RTX 5070TI (Custom Build)
 
 This repository contains a custom-built TensorFlow wheel file optimized for NVIDIA RTX 5070TI GPUs.
 
